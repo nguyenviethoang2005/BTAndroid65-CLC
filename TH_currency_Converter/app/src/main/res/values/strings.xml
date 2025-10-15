@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">TH Currency Converter</string>
+
+    <!-- Mô tả cờ -->
+    <string name="flag_us">Flag of United States</string>
+    <string name="flag_in">Flag of India</string>
+    <string name="flag_eu">Flag of European Union</string>
+    <string name="flag_gb">Flag of United Kingdom</string>
+    <string name="flag_jp">Flag of Japan</string>
+    <string name="flag_vn">Flag of Vietnam</string>
+
+    <!-- Swap -->
+    <string name="swap_currencies">Swap currencies</string>
+
+    <!-- Text gợi ý -->
+    <string name="default_amount">0.00</string>
+    <string name="convert_button">Convert</string>
+</resources>

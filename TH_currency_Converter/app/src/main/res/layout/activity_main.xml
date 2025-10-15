@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:gravity="center_horizontal"
+    tools:context=".MainActivity">
+
+    <!-- FROM SECTION -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:background="@drawable/bg_input_field"
+        android:padding="12dp"
+        android:layout_marginBottom="16dp">
+
+        <ImageView
+            android:id="@+id/ivFromFlag"
+            android:layout_width="36dp"
+            android:layout_height="24dp"
+            android:src="@drawable/flag_us"
+            android:layout_marginEnd="8dp"
+            android:contentDescription="@string/flag_us" />
+
+        <Spinner
+            android:id="@+id/spinnerFrom"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:spinnerMode="dropdown" />
+
+        <EditText
+            android:id="@+id/etFromAmount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:hint="0.00"
+            android:textSize="18sp"
+            android:gravity="end"
+            android:layout_marginStart="8dp" />
+    </LinearLayout>
+
+    <!-- SWAP BUTTON -->
+    <ImageButton
+        android:id="@+id/btnSwap"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginBottom="16dp"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:src="@drawable/ic_swap"
+        android:contentDescription="@string/swap_currencies" />
+
+    <!-- TO SECTION -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:background="@drawable/bg_input_field"
+        android:padding="12dp"
+        android:layout_marginBottom="20dp">
+
+        <ImageView
+            android:id="@+id/ivToFlag"
+            android:layout_width="36dp"
+            android:layout_height="24dp"
+            android:src="@drawable/flag_in"
+            android:layout_marginEnd="8dp"
+            android:contentDescription="@string/flag_in" />
+
+        <Spinner
+            android:id="@+id/spinnerTo"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:spinnerMode="dropdown" />
+
+        <EditText
+            android:id="@+id/etToAmount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:enabled="false"
+            android:inputType="numberDecimal"
+            android:hint="0.00"
+            android:textSize="18sp"
+            android:gravity="end"
+            android:layout_marginStart="8dp" />
+    </LinearLayout>
+
+    <!-- CONVERT BUTTON -->
+    <Button
+        android:id="@+id/btnConvert"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Convert"
+        android:textAllCaps="false"
+        android:background="@drawable/bg_button"
+        android:textColor="#FFFFFF"
+        android:padding="12dp"
+        android:textSize="18sp" />
+</LinearLayout>
