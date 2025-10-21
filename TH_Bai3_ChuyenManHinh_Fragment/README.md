@@ -1,7 +1,7 @@
 # 🧩 TH_Bai3_ChuyenManHinh_Fragment  
 **Môn:** Lập trình thiết bị di động  
 **Bài thực hành:** Bài 3 - Chuyển màn hình bằng Fragment  
-**Sinh viên:** Nguyễn Việt Hoàng
+**Sinh viên:** Nguyễn Việt Hoàng  
 **Package:** `th.nguyenviethoang.th_bai3_chuyenmanhinh_fragment`
 
 ---
@@ -21,7 +21,7 @@ Người dùng chọn chủ đề → ứng dụng chuyển sang **màn hình t�
 
 | Màn hình chính | Fragment Tiếng Anh | Fragment Toán |
 |:---------------:|:------------------:|:--------------:|
-| ![Main Screen](<img src="images/mainscreen.png" alt="Main Screen" width="300"/>) | ![English Fragment](<img src="images/englishfragment.png" alt="English Fragment" width="300"/>) | ![Math Fragment](<img src="images/mathfragment.png" alt="Math Fragment" width="300"/>) |
+| <img src="images/mainscreen.png" alt="Main Screen" width="250"/> | <img src="images/englishfragment.png" alt="English Fragment" width="250"/> | <img src="images/mathfragment.png" alt="Math Fragment" width="250"/> |
 
 
 
