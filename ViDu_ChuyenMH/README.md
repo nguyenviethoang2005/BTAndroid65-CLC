@@ -14,6 +14,6 @@ Dự án này giúp bạn làm quen với:
 
 ## 📱 Giao diện minh họa
 
-| Màn hình chính | Kết quả phép tính |
+| Màn hình 1 | Màn hình 2 |
 |:---------------:|:-----------------:|
 | <img src="images/screen6.png" alt="Screen 1" width="300"/> | <img src="images/screen7.png" alt="Screen 2" width="300"/> |
