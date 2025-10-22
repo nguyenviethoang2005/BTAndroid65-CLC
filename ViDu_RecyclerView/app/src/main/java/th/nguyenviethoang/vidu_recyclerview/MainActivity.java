@@ -49,7 +49,7 @@ public class MainActivity extends AppCompatActivity {
     ArrayList<LandScape> getDataForRecycleView() {
         ArrayList<LandScape> dsDuLieu = new ArrayList<>();
         dsDuLieu.add(new LandScape("effel", "Tháp Effel"));
-        dsDuLieu.add(new LandScape("effel", "Cung điện Buckingham"));
+        dsDuLieu.add(new LandScape("buckingham", "Cung điện Buckingham"));
         return dsDuLieu;
     }
 }

@@ -17,4 +17,4 @@ Dự án này được viết bằng **Java** trên **Android Studio**, giúp b�
 
 | Màn hình chính |
 |:---------------:|
-| <img src="images/screen5.png" alt="Main Screen" width="300"/> |
+| <img src="images/screen10.png" alt="Main Screen" width="300"/> |
