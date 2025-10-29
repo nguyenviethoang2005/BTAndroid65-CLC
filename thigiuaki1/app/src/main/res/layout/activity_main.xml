@@ -1,55 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical"
-    android:gravity="center_horizontal"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#F6F3FF">
+    android:orientation="vertical"
+    android:background="#F6F1FF"
+    android:gravity="center_horizontal"
+    tools:context=".MainActivity">
 
-    <ImageView
-        android:id="@+id/imgDoctor"
-        android:layout_width="200dp"
-        android:layout_height="120dp"
-        android:layout_marginTop="40dp"
-        android:src="@drawable/doctor"
-        android:background="@drawable/bg_doctor_frame"
-        android:scaleType="centerInside"
-        android:padding="10dp"
-        android:contentDescription="@string/doctor_image" />
+    <!-- Khung bác sĩ -->
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:background="@drawable/border_doctor"
+        android:layout_marginTop="0dp">
 
-    <Button
-        android:id="@+id/btnBMI"
-        android:layout_width="220dp"
-        android:layout_height="50dp"
-        android:layout_marginTop="30dp"
-        android:text="BMI"
-        android:backgroundTint="#7A47E5"
-        android:textColor="#FFF" />
+        <ImageView
+            android:id="@+id/imgDoctor"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:src="@drawable/doctor" />
+    </FrameLayout>
 
-    <Button
-        android:id="@+id/btnMonAn"
-        android:layout_width="220dp"
-        android:layout_height="50dp"
-        android:layout_marginTop="15dp"
-        android:text="Món Ăn"
-        android:backgroundTint="#7A47E5"
-        android:textColor="#FFF" />
+    <!-- Các nút chức năng -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_marginTop="30dp">
 
-    <Button
-        android:id="@+id/btnBaiThuoc"
-        android:layout_width="220dp"
-        android:layout_height="50dp"
-        android:layout_marginTop="15dp"
-        android:text="Bài Thuốc"
-        android:backgroundTint="#7A47E5"
-        android:textColor="#FFF" />
+        <Button
+            android:id="@+id/btnBMI"
+            android:layout_width="220dp"
+            android:layout_height="55dp"
+            android:text="BMI"
+            android:background="@drawable/rounded_button" />
 
-    <Button
-        android:id="@+id/btnGioiThieu"
-        android:layout_width="220dp"
-        android:layout_height="50dp"
-        android:layout_marginTop="15dp"
-        android:text="Giới Thiệu"
-        android:backgroundTint="#7A47E5"
-        android:textColor="#FFF" />
+        <Button
+            android:id="@+id/btnMonAn"
+            android:layout_width="220dp"
+            android:layout_height="55dp"
+            android:text="Món Ăn"
+            android:background="@drawable/rounded_button"
+            android:layout_marginTop="10dp" />
+
+        <Button
+            android:id="@+id/btnBaiThuoc"
+            android:layout_width="220dp"
+            android:layout_height="55dp"
+            android:text="Bài Thuốc"
+            android:background="@drawable/rounded_button"
+            android:layout_marginTop="10dp" />
+
+        <Button
+            android:id="@+id/btnGioiThieu"
+            android:layout_width="220dp"
+            android:layout_height="55dp"
+            android:text="Giới Thiệu"
+            android:background="@drawable/rounded_button"
+            android:layout_marginTop="10dp" />
+    </LinearLayout>
 
 </LinearLayout>

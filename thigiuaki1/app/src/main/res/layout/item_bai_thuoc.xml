@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:background="@drawable/rounded_item_bg"
+    android:padding="10dp"
+    android:layout_margin="6dp"
+    android:gravity="center_vertical">
+
+    <ImageView
+        android:id="@+id/imageViewBaiThuoc"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:src="@drawable/ic_medicine"
+        android:scaleType="centerCrop"
+        android:contentDescription="@string/app_name"
+        android:layout_marginEnd="10dp" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textViewTenBaiThuoc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tên bài thuốc"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:textColor="#000" />
+
+        <TextView
+            android:id="@+id/textViewThoiGian"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Thời gian: 10 phút"
+            android:textSize="14sp"
+            android:textColor="#666" />
+    </LinearLayout>
+</LinearLayout>
